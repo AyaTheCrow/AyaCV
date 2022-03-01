@@ -1,0 +1,83 @@
+% 字体大小: '10pt', '11pt' and '12pt'
+% 纸张大小: 'a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape'
+% 字体族: 'sans' and 'roman'
+% 主题色调: 'purple' (default), 'black', 'blue', 'burgundy', 'green', 'grey', 'orange' and 'red'
+\documentclass[11pt,a4paper,roman]{ayacv}
+
+% 取消自动页码
+\nopagenumbers{}
+
+% 中文字符编码
+\setmainfont{Times New Roman}
+\setCJKmainfont[ItalicFont={方正楷体_GBK}]{思源宋体 CN}
+% Windows系统自带字体
+% \setCJKmainfont[ItalicFont={KaiTi}, BoldFont={SimHei}]{SimSun}
+
+% 页边距
+\usepackage[scale=0.8]{geometry}
+
+%----------------------------------------------------------------------------------
+%                  简历头部
+%----------------------------------------------------------------------------------
+\name{射命丸}{文}
+\title{Syameimaru Aya}
+% \address{幻想乡}{妖怪之山}{}
+\mobile{手机: (+86) 188 8888 8888}
+\email{邮箱: syameimaru@aya.com}
+% \homepage{syameimaru.aya.com}
+% \social[linkedin]{aya}
+% \social[twitter]{aya}
+% \social[github]{aya}
+\extrainfo{虽说是鸦天狗, 外表和人类并无太大差别. }
+\quote{求职意向: 新闻记者}
+
+%----------------------------------------------------------------------------------
+%                  简历正文
+%----------------------------------------------------------------------------------
+\begin{document}
+\makecvtitle
+
+\section{教育背景}
+\cventry{2016--2021}{妖怪之山大学}{新闻学}{博士}{虽然发了很多论文, 但不知道学了什么}{导师: 饭纲丸龙}
+\cventry{2013--2016}{人间之里大学}{新闻学}{本科}{虽然每门课程满绩, 但不知道学了什么}{}
+
+\section{弹幕射击游戏}
+\cventry{2008/05--至今}{东方地灵殿}{自机}{支援博丽灵梦}{}
+{
+    住在山上的天狗新闻记者. 
+    因为发觉山上的神和河童似乎在偷偷摸摸搞些什么而潜入调查之后, 发现答案在地底世界. 
+    考虑到如果能采访到有价值的新闻写成报道应该能一口气提升出版量, 而利用了灵梦. 
+    因为对于天狗来说进入地底这种事情是必须尽量避免的. 
+}
+\cventry{2017/05--至今}{东方天空璋}{自机}{飞散红叶的天狗}{代表四季中的秋天}
+{
+    \begin{itemize}
+        \item 正在各地进行取材, 因此最先注意到了气候的异常. 
+        \item 不只是单纯的凉夏和酷暑, 这一切的原因都被隐藏了起来. 
+        \item 她觉得这样的异常状况是人为所致, 究竟这个直觉能不能猜中呢. 
+    \end{itemize}
+}
+
+\section{格斗游戏}
+\cvsimpleentry{2007/05--至今}{东方绯想天}
+{
+    她的思维能力极高, 先不问这是否就是事实, 她思考问题的速度绝对是普通人的好几倍. 
+    想要预测出她的想法是很困难的. 
+    除此之外, 文总是在表面上迎合着对方的思考速度, 所以在一起的人总会感觉很不舒服. 
+    她虽然并不喜欢战斗, 但却喜欢到处寻衅滋事. 
+    可是因为根本不是她的对手, 所以肯接受挑衅的人少之又少. 
+}
+
+\section{符卡}
+\cvdateditems{
+    {东方风神录}{风神「风神木叶隐身术」}
+    {东方风神录}{「幻想风靡」}
+    {东方风神录}{「无双风神」}
+    {东方文花帖}{取材「射命丸文的暴力取材」}
+    {东方天空璋}{风符「天狗暴风雨」}
+}
+
+\section{主题曲}
+\cvlistdoubleitem{风神少女}{妖怪之山 Mysterious Mountain}
+
+\end{document}
